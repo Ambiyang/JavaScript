@@ -2,6 +2,7 @@
 ### meta
 1.  description:description shown in searching engine
 2.  keyword:keyword hit in searching engine
+3.  line return:<br>
 
 # chapter 3
 ### selector
@@ -28,6 +29,7 @@
 # chapter 6
 1. size:%,em,ex,px
 2. box attri has left right bottom top
+3. !important:highest preference control
 
 # chapter 7
 ### inline element
