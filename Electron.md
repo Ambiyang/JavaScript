@@ -39,7 +39,18 @@ parentWin.loadFile('index1.html');
 parentWin.loadFile('index2.html');
 ```
 
+5. child window also receive ipcMain.on
+```
+use file name to filter
+if (__dirname + '\\index.html' == __filename) {
+		get_confirm_window(obj);
+	}
+```
 
+6. how to check undefined
+```
+if (typeof(win_confirm) == 'undefined')
+```
 
 
 
